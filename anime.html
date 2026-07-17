@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AniSite - Assistir</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a href="index.html" class="back-btn">&#8592; Voltar</a>
+    <div class="brand">&#127803; AniSite</div>
+    <div style="width:80px"></div>
+  </header>
+
+  <main class="anime-layout">
+    <aside class="anime-sidebar" id="animeSidebar"></aside>
+
+    <section class="watch-section">
+      <div class="player-wrap">
+        <iframe id="player" class="player" src="" allowfullscreen frameborder="0"></iframe>
+      </div>
+      <div class="ep-header">
+        <h2 id="epTitle">Selecione um episodio</h2>
+      </div>
+      <div id="episodes" class="episodes"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>AniSite &copy; 2026 &mdash; Dados via Jikan/MyAnimeList</p>
+  </footer>
+
+  <script src="anime.js"></script>
+</body>
+</html>

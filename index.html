@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AniSite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">&#127803; AniSite</div>
+    <nav class="nav-links">
+      <a href="index.html">Inicio</a>
+    </nav>
+    <div class="search">
+      <input id="searchInput" type="text" placeholder="Buscar anime..." />
+      <button id="searchBtn">Buscar</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Assista seus animes favoritos</h1>
+      <p>Catalogo completo com episodios legendados.</p>
+      <button onclick="document.getElementById('searchInput').focus()">Explorar catalogo</button>
+    </div>
+  </section>
+
+  <main>
+    <h2 class="section-title" id="resultsTitle">Em alta</h2>
+    <div id="grid" class="grid"></div>
+    <div id="loading" class="loading">Carregando...</div>
+  </main>
+
+  <footer class="footer">
+    <p>AniSite &copy; 2026 &mdash; Dados via Jikan/MyAnimeList</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

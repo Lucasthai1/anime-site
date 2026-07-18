@@ -1,0 +1,29 @@
+{
+  "_comment": "Adicione seus animes aqui. mal_id = ID do MyAnimeList. embed = lista de URLs dos episodios. names = nomes opcionais de cada episodio.",
+
+  "Cowboy Bebop": {
+    "mal_id": 1,
+    "names": [
+      "Asteroid Blues",
+      "Stray Dog Strut",
+      "Honky Tonk Women"
+    ],
+    "embed": [
+      "https://www.youtube.com/embed/--IcmZkvL0Q",
+      "https://www.youtube.com/embed/--IcmZkvL0Q",
+      "https://www.youtube.com/embed/--IcmZkvL0Q"
+    ]
+  },
+
+  "Trigun": {
+    "mal_id": 6,
+    "names": [
+      "The $$60,000,000,000 Man",
+      "Truth of Mistake"
+    ],
+    "embed": [
+      "https://www.youtube.com/embed/--IcmZkvL0Q",
+      "https://www.youtube.com/embed/--IcmZkvL0Q"
+    ]
+  }
+}
